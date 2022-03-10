@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.html">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+  <div class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-12">
+          <div class="toom">
+            <img src="img/web-logo-devil.png" width="100%" alt="" srcset="">
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-7 col-sm-12">
+    
+          <div class="namepass">
+            <div class="container">
+              <form>
+                <h1 id="status" style="color: white; font-family: chiller; font-size: 50px;"></h1>
+                <div class="color">
+                <label for="usrname" style="color: rgb(252, 252, 252); font-family: chiller; font-size: 29px;">Username</label>
+                <input type="text" id="username" name="Anas" required>
+            </div>
+            <div class="color1">
+                <label for="psw" style="color: rgb(252, 252, 252); font-family: chiller; font-size: 29px;" >Password</label>
+                <input type="password" id="psw" name="abc" title="Enter Write Password" required>
+            </div>
+          </form>   
+            </div>
+          </div>
+                
+        
+          <div class="phonemail">
+            <div class="container">
+              <form>
+                <h1 id="status" style="text-align: center; color: white;"></h1>
+                <div class="color55">
+                <label for="Phone" style="color: rgb(252, 252, 252); font-family: chiller; font-size: 29px;" >Phone Number</label>
+                <input type="text" id="Phone" name="maham" required>
+            </div>
+            <div class="color15">
+                <label for="email" style="color: rgb(252, 252, 252); font-family: chiller; font-size: 29px; padding-top: 10px;" >E-mail</label>
+                <input type="email" id="email" name="abc" title="Enter Write E-mail" required>
+            </div>
+                <input type="button" id="login" value="login">
+              </form>   
+            </div>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  
+        <script>
+          var username = document.getElementById("username").value;
+          var psw = document.getElementById("psw").value;
+
+          document.getElementById("login").onclick=function(){
+            console.log("khan");
+            var username = document.getElementById("username").value;
+            var psw = document.getElementById("psw").value;
+            var email = document.getElementById("email").value;
+            var Phone = document.getElementById("Phone").value;
+
+            if(username=="AnasIqbal"){
+              if(psw=="Attitude"){
+                // alert("Successfully Logged In");
+                document.getElementById("status").innerHTML="Successfully LoggedIn!";
+                location.href="file:///C:/Users/DigiTrends/Desktop/PersonalWeb/index.html";
+                
+              }
+              else{
+                // alert("Incorrect password");
+                document.getElementById("status").innerHTML="Incorrect password";
+              }
+            }
+            else if(username===""){
+              document.getElementById("status").innerHTML="Please enter your Username";
+            }
+            else if(psw===""){
+              document.getElementById("status").innerHTML="Please enter your password";
+            }
+            else{
+              // alert("Incorrect username");
+              document.getElementById("status").innerHTML="Incorrect Username";
+            }
+          }
+            if(Phone=="03071290706"){
+              if(email=="anasiqbal079@gmail.com"){
+                // alert("Successfully Logged In");
+                document.getElementById("status").innerHTML="Successfully LoggedIn!";
+                location.href="file:///C:/Users/DigiTrends/Desktop/PersonalWeb/index.html";
+              }
+              else{
+                // alert("Incorrect email");
+                document.getElementById("status").innerHTML="Incorrect email";
+              }
+            }
+            else if(Phone===""){
+              document.getElementById("status").innerHTML="Please enter your Phone";
+            }
+            else if(email===""){
+              document.getElementById("status").innerHTML="Please enter your email";
+            }
+            else{
+              // alert("Incorrect Phone");
+              document.getElementById("status").innerHTML="Incorrect Phone";
+            }
+        </script>
+       
+    
+          </div>
+         </div>
+        </body>
+        <script src="https://kit.fontawesome.com/fd6df29d87.js" crossorigin="anonymous"></script>
+        </html>
+</body>
+</html>

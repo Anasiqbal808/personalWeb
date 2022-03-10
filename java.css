@@ -1,0 +1,104 @@
+body
+{
+    background: black;
+}
+input {
+    width: auto;
+    padding: 10px;
+    color: white;
+    font-family: cursive;
+    background: black;
+    border: 3px solid blueviolet;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 16px;
+  }
+  
+  /* Style the submit button */
+  input[type=button] {
+    background-color: black;
+    border-radius: 50px;
+    width:230px;
+    font-family: cursive;
+    margin-left: 500px;
+    color: white;
+  }
+  
+  /* Style the container for inputs */
+  .container {
+    background-color:black;
+    padding: 20px;
+  }
+  
+  /* The message box is shown when the user clicks on the password field */
+  #message {
+    display:none;
+    background:black;
+    color:white;
+    position: relative;
+    padding: 20px;
+    font-family: cursive;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+  .color
+  {
+      color:white;
+      font-size: 20px;
+      font-family: cursive;
+      margin-left: 500px;
+      width: 200px;
+  }
+  .color1
+  {
+      margin-top: 20px;
+      color:white;
+      font-size: 20px;
+      font-family: cursive;
+      margin-left: 500px;
+      width: 200px;
+  }
+  .color15
+  {
+      color:white;
+      font-size: 20px;
+      font-family: cursive;
+      margin-left: 500px;
+      width: 200px;
+  }
+  .color55
+  {
+      margin-top: 20px;
+      color:white;
+      font-size: 20px;
+      font-family: cursive;
+      margin-left: 500px;
+      width: 200px;
+  }
